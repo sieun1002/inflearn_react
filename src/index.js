@@ -8,6 +8,7 @@ import { createRoot } from "react-dom/client";
 import Library from "./ch03/Library";
 import Clock from "./ch04/Clock";
 import CommentList from "./ch05/CommentList";
+import NotificationList from "./ch06/NotificationList";
 
 // //ch03
 // const root = createRoot(document.getElementById("root"));
@@ -27,11 +28,20 @@ import CommentList from "./ch05/CommentList";
 //   );
 // }, 1000);
 
-//ch05
+// //ch05
+// const root = createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <CommentList />
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
+
+//ch06
 const root = createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <CommentList />
+    <NotificationList />
   </React.StrictMode>,
   document.getElementById("root")
 );
