@@ -10,6 +10,7 @@ import Clock from "./ch04/Clock";
 import CommentList from "./ch05/CommentList";
 import NotificationList from "./ch06/NotificationList";
 import Accommodate from "./ch07/Accommodate";
+import ConfirmButton from "./ch08/ComfirmButton";
 
 // //ch03
 // const root = createRoot(document.getElementById("root"));
@@ -47,11 +48,19 @@ import Accommodate from "./ch07/Accommodate";
 //   document.getElementById("root")
 // );
 
-//07
+// //07
+// const root = createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <Accommodate />
+//   </React.StrictMode>
+// );
+
+//08
 const root = createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Accommodate />
+    <ConfirmButton />
   </React.StrictMode>
 );
 
