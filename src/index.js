@@ -11,6 +11,7 @@ import CommentList from "./ch05/CommentList";
 import NotificationList from "./ch06/NotificationList";
 import Accommodate from "./ch07/Accommodate";
 import ConfirmButton from "./ch08/ComfirmButton";
+import LandingPage from "./ch09/LandingPage";
 
 // //ch03
 // const root = createRoot(document.getElementById("root"));
@@ -56,12 +57,21 @@ import ConfirmButton from "./ch08/ComfirmButton";
 //   </React.StrictMode>
 // );
 
-//08
+// //08
+// const root = createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <ConfirmButton />
+//   </React.StrictMode>
+// );
+
+//09
 const root = createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <ConfirmButton />
-  </React.StrictMode>
+    <LandingPage />
+  </React.StrictMode>,
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
