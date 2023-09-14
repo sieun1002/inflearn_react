@@ -12,6 +12,7 @@ import NotificationList from "./ch06/NotificationList";
 import Accommodate from "./ch07/Accommodate";
 import ConfirmButton from "./ch08/ComfirmButton";
 import LandingPage from "./ch09/LandingPage";
+import AttendanceBook from "./ch10/AttendanceBook";
 
 // //ch03
 // const root = createRoot(document.getElementById("root"));
@@ -65,11 +66,20 @@ import LandingPage from "./ch09/LandingPage";
 //   </React.StrictMode>
 // );
 
-//09
+// //09
+// const root = createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <LandingPage />
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
+
+//10
 const root = createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <LandingPage />
+    <AttendanceBook />
   </React.StrictMode>,
   document.getElementById("root")
 );
