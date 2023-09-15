@@ -13,6 +13,7 @@ import Accommodate from "./ch07/Accommodate";
 import ConfirmButton from "./ch08/ComfirmButton";
 import LandingPage from "./ch09/LandingPage";
 import AttendanceBook from "./ch10/AttendanceBook";
+import SignUp from "./ch11/SignUp";
 
 // //ch03
 // const root = createRoot(document.getElementById("root"));
@@ -75,11 +76,20 @@ import AttendanceBook from "./ch10/AttendanceBook";
 //   document.getElementById("root")
 // );
 
-//10
+// //10
+// const root = createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <AttendanceBook />
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
+
+//11
 const root = createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AttendanceBook />
+    <SignUp />
   </React.StrictMode>,
   document.getElementById("root")
 );
