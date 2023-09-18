@@ -14,6 +14,7 @@ import ConfirmButton from "./ch08/ComfirmButton";
 import LandingPage from "./ch09/LandingPage";
 import AttendanceBook from "./ch10/AttendanceBook";
 import SignUp from "./ch11/SignUp";
+import Calculator from "./ch12/Calculator";
 
 // //ch03
 // const root = createRoot(document.getElementById("root"));
@@ -85,11 +86,20 @@ import SignUp from "./ch11/SignUp";
 //   document.getElementById("root")
 // );
 
-//11
+// //11
+// const root = createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <SignUp />
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
+
+//12
 const root = createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <SignUp />
+    <Calculator />
   </React.StrictMode>,
   document.getElementById("root")
 );
